@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+ 
+      Theme: Ashley v0.6
+      Author: Jxnblk  [http://jxnblk.com]
+      For: Tumblr  [http://tumblr.com/]
+      Terms: Protected under Creative Commons. [http://creativecommons.org/licenses/by-nc/3.0/]
+  
+-->
+<html lang="en">
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
+<link rel='stylesheet' id='gugur-icons-css'  href='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/eicons/css/gugur-icons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gugur-animations-css'  href='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/animations/animations.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gugur-frontend-css'  href='https://gugurbung.github.io/wp-content/plugins/gugur/assets/css/frontend.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gugur-pro-css'  href='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/css/frontend.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gugur-icons-shared-0-css'  href='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/font-awesome/css/fontawesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gugur-icons-fa-brands-css'  href='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/font-awesome/css/brands.min.css' type='text/css' media='all' />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body class="home page-template page-template-gugur_canvas page page-id-3567 tf_theme-base no-touch tf_template tf_template_base-page sidebar_right gugur-default gugur-template-canvas gugur-page gugur-page-3567">
+  
+ <style id='gugur-frontend-inline-css' type='text/css'>
+.gugur-3628 .gugur-element.gugur-element-47ef6c8:not(.gugur-motion-effects-element-type-background), .gugur-3628 .gugur-element.gugur-element-47ef6c8 > .gugur-motion-effects-container > .gugur-motion-effects-layer{background-color:#0c0c0c;}.gugur-3628 .gugur-element.gugur-element-47ef6c8{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;z-index:99;}.gugur-3628 .gugur-element.gugur-element-47ef6c8 > .gugur-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.gugur-3628 .gugur-element.gugur-element-14be1cf .gugur-menu-toggle{margin:0 auto;}.gugur-3628 .gugur-element.gugur-element-14be1cf .gugur-nav-menu--main .gugur-item{color:#ffffff;}.gugur-3628 .gugur-element.gugur-element-14be1cf div.gugur-menu-toggle{color:#f7f7f7;}/* Start custom CSS for nav-menu, class: .gugur-element-14be1cf */.gugur-menu-toggle .eicon:after{content:"menu";}/* End custom CSS */
+</style>
+</head>
+
+
+<body class="home page-template page-template-gugur_canvas page page-id-3567 tf_theme-base no-touch tf_template tf_template_base-page sidebar_right gugur-default gugur-template-canvas gugur-page gugur-page-3567">
+
+<script>
+function showfullpost(json){document.write('<ul class="full_posts_with_thumbs">');
+for(var i=0;i<numposts;i++){var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
+if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break;}}var thumburl;try{thumburl=entry.media$thumbnail.url;}catch(error)
+{s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){thumburl=d;}else thumburl='http://www.webaholic.co.in/other/no-image.jpg';}
+var postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var monthnames=new Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";document.write('<li class="clearfix">');if(showpostthumbnails==true)
+document.write('<img class="recent_thumb" src="'+thumburl+'"/>');document.write('<h2><a href="'+posturl+'" target ="_top">'+posttitle+'</a></h2><br>');if("content"in entry){var postcontent=entry.content.$t;}
+document.write(postcontent + '<br style="clear:both;"');
+var towrite='';var flag=0;document.write('<br><strong>');if(showpostdate==true){towrite=towrite+monthnames[parseInt(cdmonth,10)]+'-'+cdday+' - '+cdyear;flag=1;}
+if(showcommentnum==true)
+{if(flag==1){towrite=towrite+' | ';}
+if(commenttext=='1 Comments')commenttext='1 Comment';if(commenttext=='0 Comments')commenttext='No Comments';commenttext='<a href="'+commenturl+'" target ="_top">'+commenttext+'</a>';towrite=towrite+commenttext;flag=1;;}
+if(displaymore==true)
+{if(flag==1)towrite=towrite+' | ';flag=1;;}
+document.write(towrite);document.write('</strong></li>');if(displayseparator==true)
+if(i!=(numposts-1))
+document.write('<hr size=0.5>');}document.write('</ul>');}
+</script>
+<script>var numposts = 10; var showpostthumbnails = false;</script> 
+<script src='https://bereslagicepatoke.blogspot.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showfullpost'></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/themes/madxflow/tf/assets/js/madx.scroll-highlight.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/lib/smartmenus/jquery.smartmenus.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/js/frontend-modules.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/lib/sticky/jquery.sticky.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/js/frontend.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-includes/js/jquery/ui/position.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/dialog/dialog.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/waypoints/waypoints.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/swiper/swiper.min.js'></script>
+<script type='text/javascript'>
+var gugurFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.7.3","urls":{"assets":"http:\/\/gugurbung.github.io\/wp-content\/plugins\/gugur\/assets\/"},"settings":{"page":[],"general":{"gugur_global_image_lightbox":"yes","gugur_enable_lightbox_in_editor":"yes"}},"post":{"id":3567,"title":"template1","excerpt":""}};
+</script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/js/frontend.min.js'></script>
+
+
+</body>
+</html>
