@@ -1,4 +1,5 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta name=viewport content='width=device-width, initial-scale=1'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
 <link rel='stylesheet' id='gugur-icons-css'  href='https://soundrena.github.io/wp-content/plugins/gugur/assets/lib/eicons/css/gugur-icons.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='gugur-animations-css'  href='https://soundrena.github.io/wp-content/plugins/gugur/assets/lib/animations/animations.min.css' type='text/css' media='all' />
@@ -50,8 +51,9 @@
 
 <script src="https://soundrena.github.io/fullrecent.js"> </script>
 <script>var numposts = 10; var showpostthumbnails = false;</script> 
+<script src='https://bereskamubersihlagi.blogspot.com/feeds/posts/default/-/blog?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost'></script>
 
-
+<!-- batas header footer matikan mobile version pls-->
 
 
 <style id='gugur-frontend-inline-css' type='text/css'>
@@ -99,7 +101,7 @@ jQuery('#thisdomain').html(window.location.hostname)</script><script src="https:
 					<div class="gugur-widget-wrap">
 				<div class="gugur-element gugur-element-7ffaf62 gugur-widget gugur-widget-button" data-id="7ffaf62" data-element_type="widget" data-widget_type="button.default">
 				<div class="gugur-widget-container">
-					<div class="gugur-button-wrapper">
+					<div  class="gugur-button-wrapper">
 			<a href="https://wa.me/6282327925040" class="gugur-button-link gugur-button gugur-size-sm" role="button">
 						<span class="gugur-button-content-wrapper">
 						<span class="gugur-button-icon gugur-align-icon-left">
@@ -144,7 +146,9 @@ var gugurFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i
 </div>
 <style>.ui-header,#webme_footer_textlink_dont_hide,#banner-top,#banner-right,#masthead,#secondmenu,#ad-45c4,#webme_sky_ad{display:none;}
 #stage,#content,#container{width:100%!important;max-width:none!important;min-width:none!important;min-height:none!important;}</style>
-<script>jQuery('table[id*=ad],').replaceWith('');</script>
+<script>
+jQuery('table[id*="ad"]').remove();
+</script>
 <!-- Histats.com  (div with counter) --><div id='histats_counter'/>
 <!-- Histats.com  START  (aync)-->
 <script type='text/javascript'>var _Hasync= _Hasync|| [];
