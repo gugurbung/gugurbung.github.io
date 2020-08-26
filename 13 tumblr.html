@@ -50,9 +50,36 @@
 
 <script src="https://gugurbung.github.io/fullrecent.js"> </script>
 <script>var numposts = 10; var showpostthumbnails = false;</script> 
-<script src="https://puanbersihcepat.blogspot.com/feeds/posts/default/-/header?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script> 
+
+
+
+<nav id="atas" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-atas" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="tel:+6281391405813">Telpon 081391405813</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-atas">
+      <ul class="nav navbar-nav">
+		<li><a href="https://wa.me/6281391405813">WA 081391405813</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<style>#atas{z-index:999999;}
+#atas a{color:Black!important}</style>
+
+
 		
-  <header>
+  <header style="margin-top:100px;">
     {block:IfLogoImage}<a href="/"><img src="{image:Logo}" class="logo" /></a>{/block:IfLogoImage}
   	<h1><a href="/">{Title}</a></h1>
   	{block:Description}
@@ -223,7 +250,31 @@
 
 	</div> <!-- /content -->
 
-<script src="https://puanbersihcepat.blogspot.com/feeds/posts/default/-/footer?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script> 		
+<nav id="bawah" style="background:Green;color:White;" class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-bawah" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://wa.me/6281391405813"><i class="fab fa-whatsapp"></i>Whatsapp 081391405813</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-bawah">
+      <ul class="nav navbar-nav">
+        <li><a href="tel:+6281391405813">Telpon 081391405813</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<style>#bawah a{color:White!important;}
+#bawah{z-index:999999;}</style>
+
+
 		
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -257,7 +308,7 @@ var gugurFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i
   		</ul>
 		{/block:HasPages}
 		{block:AskEnabled}<a href="/ask">{AskLabel}</a>{/block:AskEnabled}
-<footer class="art-footer">
+<footer class="art-footer" style="margin-bottom:100px;">
   <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
@@ -278,6 +329,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
 
 </footer>
 <script>jQuery('img').each(function(){jQuery(this).addClass('img-responsive');})</script>
-
+<style>.art-layout-cell{position:fixed;top:-10000px;}</style>
 </body>
 </html>
