@@ -27,15 +27,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
 </head>
 <body class="home page-template page-template-gugur_canvas page page-id-3567 tf_theme-base no-touch tf_template tf_template_base-page sidebar_right gugur-default gugur-template-canvas gugur-page gugur-page-3567">
-
- <script src="https://gugurbung.github.io/fullrecent.js"> </script> 
+  
+<script src="https://gugurbung.github.io/fullrecent.js"> </script>
 <script>var numposts = 10; var showpostthumbnails = false;</script> 
-<script src='https://bereslagicepatoke.blogspot.com/feeds/posts/default/-/header?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost'></script>  
-
-   
+<script 
+src='https://tonioamangl.blogspot.com/feeds/posts/default/-/header?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost'></script>
+ 
 <div id="gugur-main">
 
-<script src='https://bereslagicepatoke.blogspot.com/feeds/posts/default/-/blog?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost'></script> 
+
 <div class="gugur-sheet clearfix">
             <div class="gugur-layout-wrapper">
                 <div class="gugur-content-layout">
@@ -607,31 +607,10 @@ artFixFooterMenu();
 </div>
 
 
-<script src='https://bereslagicepatoke.blogspot.com/feeds/posts/default/-/footer?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost'></script> 
-		
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/themes/madxflow/tf/assets/js/madx.scroll-highlight.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/lib/smartmenus/jquery.smartmenus.min.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/js/frontend-modules.min.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/lib/sticky/jquery.sticky.min.js'></script>
-
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/js/frontend.min.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-includes/js/jquery/ui/position.min.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/dialog/dialog.min.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/waypoints/waypoints.min.js'></script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/swiper/swiper.min.js'></script>
-<script type='text/javascript'>
-var gugurFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.7.3","urls":{"assets":"http:\/\/gugurbung.github.io\/wp-content\/plugins\/gugur\/assets\/"},"settings":{"page":[],"general":{"gugur_global_image_lightbox":"yes","gugur_enable_lightbox_in_editor":"yes"}},"post":{"id":3567,"title":"template1","excerpt":""}};
-</script>
-<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/js/frontend.min.js'></script>
-
-
- </body>
-<!-- Histats.com (div with counter) --><div id='histats_counter'></div>
-<!-- Histats.com START (aync)-->
-<script type='text/javascript'>var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4365279,4,10,200,40,00011111']);
+   <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4594663,4,2,120,55,00011111']);
 _Hasync.push(['Histats.fasi', '1']);
 _Hasync.push(['Histats.track_hits', '']);
 (function() {
@@ -639,7 +618,31 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<!-- Histats.com END -->
-<style>.gugur-content{position:fixed;top:-10000px;}</style>
+
+<!-- Histats.com  END  -->
+
+
+<script 
+src='https://tonioamangl.blogspot.com/feeds/posts/default/-/footer?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost'></script>
+ 
+		
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/themes/madxflow/tf/assets/js/madx.scroll-highlight.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/lib/smartmenus/jquery.smartmenus.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/js/frontend-modules.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/lib/sticky/jquery.sticky.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur-pro/assets/js/frontend.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-includes/js/jquery/ui/position.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/dialog/dialog.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/waypoints/waypoints.min.js'></script>
+<script type='text/javascript' src='https://gugurbung.github.io/wp-content/plugins/gugur/assets/lib/swiper/swiper.min.js'></script>
+
+
+
+
+ </body>
+
+
 
 </html>
