@@ -29,7 +29,7 @@
 <script src="https://puanbersihcepat.blogspot.com/feeds/posts/default/-/header?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script> 
 
 
-    <div style="position:fixed;top:-10000px;" class="content-wrap">
+    <div class="content-wrap">
       {{#sections}}
         <div class="container">{content}</div>
       {{/sections}}
@@ -63,9 +63,17 @@
 <script src="https://puanbersihcepat.blogspot.com/feeds/posts/default/-/footer?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script> 
 
 
-<script>jQuery('body').addClass('page-template page-template-gugur_canvas page page-id-3628 logged-in tf_theme-base no-touch tf_template tf_template_base-page sidebar_right gugur-default gugur-template-canvas gugur-page gugur-page-3628');
-jQuery('.cento-header,div[id*="signup"]').replaceWith('');
-</script>
+ <script>
+jQuery(window).load(function(){
+jQuery('body').addClass('page-template page-template-gugur_canvas page page-id-3628 logged-in tf_theme-base no-touch tf_template tf_template_base-page sidebar_right gugur-default gugur-template-canvas gugur-page gugur-page-3628');
+jQuery('.cento-header,div[id*="signup"]').remove();
+})
+jQuery(document).ready(function(){jQuery('.cento-header,div[id*="signup"]').remove();});
+jQuery('.cento-header,div[id*="signup"]').remove();
+</script> 
+<style>#wsite-content{position:fixed!important;top:-10000px!important;}</style>
+
+
   <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
@@ -78,7 +86,10 @@ hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
 <!-- Histats.com  END  -->
-<style>.wsite-section-content{position:fixed;top:-10000px;}</style>
+
 </div>
+<div style='display:none'>{title}</div>
+<div style='display:none'>{menu}</div>
+<div style='padding: 20px; width:100%; text-align:center;'>{footer}</div>
 </body>
 </html>
