@@ -3,5 +3,4 @@ if (window.innerWidth < 768) {
 }
 
 $(document).ready(function(){
-	AOS.init();
 });
